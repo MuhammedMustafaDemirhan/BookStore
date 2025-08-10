@@ -1,0 +1,60 @@
+#####################
+# Build Klasörleri
+#####################
+bin/
+obj/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+*.dbmdl
+*.bak
+*.sql
+
+#####################
+# Visual Studio
+#####################
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+#####################
+# Test / Geçici Dosyalar
+#####################
+TestResults/
+*.log
+*.tmp
+*.pidb
+*.svclog
+
+#####################
+# InMemory / Local DB
+#####################
+*.db
+*.sqlite
+*.mdf
+*.ldf
+
+#####################
+# Konfigürasyonlar ve Gizli Bilgiler
+#####################
+.env
+secrets.json
+appsettings.Development.json
+
+#####################
+# Rider / VSCode kullanıcıları için
+#####################
+.idea/
+.vscode/
+*.code-workspace
+
+#####################
+# Diğer yaygın dışlamalar
+#####################
+*.ncrunch*
+_ReSharper*/
+*.resharper
+*.DotSettings.user
+*.orig
+*.cache
